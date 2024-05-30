@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata = {
   title: {
-    template: "blog_app",
-    default: "Personal Blog - A feature to make you famous",
+    template: "business_solution",
+    default: "PIPRA SOFT",
   },
 };
 
@@ -14,7 +14,7 @@ export default function Layout({ children }) {
       lang="en"
       className="h-full bg-neutral-950 text-base antialiased text-neutral-100"
     >
-      <body className="flex min-h-full flex-col">
+      <body className="flex min-h-full flex-col" suppressHydrationWarning={true}>
         <RootLayout>{children}</RootLayout>
       </body>
     </html>

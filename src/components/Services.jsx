@@ -32,24 +32,20 @@ const Services = () => {
           </div>
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Branding">
+            Our team of experienced designers, marketers, and strategists is dedicated to helping you build a powerful brand presence that resonates with your audience. From logo design and brand identity development to messaging strategies and digital branding solutions, we offer a comprehensive range of services tailored to your unique needs.
             </ListItem>
             <ListItem title="Application development">
               We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+              app frameworks and libraries like Next.Js, React and various UI Libraries like Tailwind Css, Material UI, Bootstrap 
             </ListItem>
-            <ListItem title="E-commerce">
+            {/* <ListItem title="E-commerce">
               We are at the forefront of modern e-commerce development. Which
               mainly means adding your logo to the Shopify store template we’ve
               used for the past six years.
-            </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            </ListItem> */}
+            <ListItem title="Facebook Page Management">
+            With our comprehensive Facebook marketing services, we help businesses of all sizes reach their target audience, increase brand visibility, and drive conversions. Our team of experienced marketers crafts personalized strategies which can help you to optimize your Facebook presence
             </ListItem>
           </List>
         </div>
