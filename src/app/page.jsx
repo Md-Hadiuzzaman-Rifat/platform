@@ -14,7 +14,7 @@ export default function Home() {
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
             Make your online business{" "}
-            <span className="text-blue-600 text-5xl font-bold">PROFITABLE</span>{" "}
+            <span className="text-blue-600 text-4xl sm:text-5xl font-bold">PROFITABLE</span>{" "}
             with us!
           </h1>
           <p className="m-6 text-xl text-blue-600 font-italic line-through">
